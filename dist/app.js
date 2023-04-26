@@ -9,4 +9,4 @@ const todos_1 = __importDefault(require("./router/todos"));
 const app = (0, express_1.default)();
 app.use(body_parser_1.default.json());
 app.use(todos_1.default);
-app.listen(3000);
+app.listen(3007);
